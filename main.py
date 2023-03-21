@@ -106,6 +106,11 @@ while is_game:
         # if len(enemies) == 0:
         #     is_game = False
         #     score.write(f"Score: {}".format(score), align="center", font=("Courier", 24, "normal"))
+          if score.score == 10:
+              score.clear()
+              score.goto(0,0)
+              score.write(f"Score: {score.score}/10", align = "center", font = ("Courier", 24, "normal"))
+
 
 
 
