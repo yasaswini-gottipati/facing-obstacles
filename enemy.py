@@ -13,7 +13,7 @@ class Enemy (Turtle):
         self.penup()
         self.speed(0)
         self.goto(random.randint(-250, 250), random.randint(150, 250))
-        self.dx = random.randint(1,3)
+        self.dx = random.randint(1,5)
         self.speed_value = 5
 
     def move(self):
